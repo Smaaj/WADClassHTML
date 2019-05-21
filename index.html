@@ -19,6 +19,8 @@
 
 <style media="screen">
     body {background-color: powderblue;}
+    
+    /*Internal CSS Fonts*/
     h1 {
       color: green;
       font-family: verdana;
@@ -28,10 +30,18 @@
       color: red;
       font-family: courier;
       font-size: 160%;
+    
+      /*Internal CSS border*/
       border: 1px solid powderblue;
+     
+     /*Internal CSS padding*/
       padding: 30px;
+      
+      /*Internal CSS Margin*/
       margin: 50px;
     }
+    
+    /*Internal CSS id Attribute*/
     #h101{
       color: gray;
     }
@@ -49,6 +59,8 @@
     #ab:hover,#ab:active{
       background-color: red;
     }
+
+    /*Internal CSS class Attribute*/
     p.error{
       color: yellow;
     }
@@ -75,8 +87,9 @@
       background-color: transparent;
       text-decoration: underline;
     }
-
   </style>
+    <!--This example links to a style sheet located in the same folder as the current page:-->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <!--HTML Style Background color-->
@@ -215,6 +228,20 @@
 define in head section-->
 <h4 id="InternalCSS">Internal CSS</h4>
 <p>This part in w3school Internal CSS</p>
+
+<!-- External CSS
+    add a link to it in the head section of the HTML page:-->
+
+    <!--CSS Fonts
+inline
+internal
+External-->
+
+<!--CSS border-->
+
+<!--CSS Padding-->
+
+<!--CSS Margin-->
 
 </body>
 </html>
