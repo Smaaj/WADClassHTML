@@ -1,5 +1,7 @@
 <!--HTMl basic-->
+
 <!--HTML Docutments-->
+
 <!--HTML Elements-->
 <!DOCTYPE html>
 
@@ -11,19 +13,92 @@
 <title>Html Basic</title>
 
 <meta charset="UTF-8">
+
+<!--HTML Internal CSS-->
+<a href="#InternalCSS"> Internal CSS </a>
+
+<style media="screen">
+    body {background-color: powderblue;}
+    h1 {
+      color: green;
+      font-family: verdana;
+      font-size: 300%;
+    }
+    p {
+      color: red;
+      font-family: courier;
+      font-size: 160%;
+      border: 1px solid powderblue;
+      padding: 30px;
+      margin: 50px;
+    }
+    #h101{
+      color: gray;
+    }
+    #p01{
+      color: brown;
+    }
+    #ab:link,#ab:visited{
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+    #ab:hover,#ab:active{
+      background-color: red;
+    }
+    p.error{
+      color: yellow;
+    }
+    h2.find{
+      color: purple;
+    }
+    #a01.link{
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    #a01.visited{
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    #a01:hover{
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    #a01:active{
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+  </style>
 </head>
+
 <!--HTML Style Background color-->
 <body style="background-color: powderblue">
+
     <!--HTML Heading-->
-    
-<h1 style="font-size:60px;" style="color:darkred" style="font:bolder">EHS</h1>
+
+    <!-- HTML Style , text color, font size, font-family--> 
+<h1 style="font-size:60px;" style="color:darkred" style="font:bolder" style="font-family: 'Courier New', Courier, monospace">EHS</h1>
+
+<!--HTML Style text-align-->
+<h1 style="text-align:center">Centered Heading</h1>
+
 <!--HTML Horizotal Rules-->
 <hr>
 <h2 style="color:burlywood" style="font:bold">Home</h2>
+
 <!--HTML Paragraph-->
 <p title="First Para" style="color:cadetblue" style="font:italic">slider area for our Services</p>
 
 <hr>
+
 <ol style="color:red" style="font:italic">
     <hr>
     <li style="size:72em">Mobile Applications</li>
@@ -51,13 +126,16 @@
 <hr>
 <h6 style="color:darkgreen" style="font:bold">Contect us & about</h6>
 <hr>
-<!--HTML link break-->
+
+<!--HTML paragraph link break-->
 <p title='email"attachment"button' style="color:darkgrey" style="font:italic">Email <br> attachment</p>
+
 
 <button style="color:darksalmon">Send</button>
 <hr>
 <p title="Thrid 'last' paragraph" style="color:darkviolet" style="font:italic"><br> The Emergency HelpLine Services (EHS)<br> is serving for general public,poor or wealthy every person use this application.</p>
-<!--HTML pre Element-->
+
+<!--HTML paragraph, pre Element-->
 <pre>
     In future, enhance this idea use this application 
     Fire Brigade,
@@ -65,5 +143,77 @@
     and 
     other security agencies.
 </pre>
+<!--HTML formating-->
+
+<p> <b>This text is bold.</b> </p>
+<p> <i>This is italic text.</i> </p>
+<p> This is <sub>subscript</sub> and <sup>superscript</sup> text. </p>
+
+<!--HTML b and storng Elements-->
+<p>This is normal text.</p>
+<p> <b>This text is BOLD</b> </p>
+<p>This text is normal</p>
+<p> <strong>This text is strong.</strong> </p>
+
+<!--HTML i and em Elements-->
+<p> This text is normal </p>
+<p> <i>This text is italic.</i> </p>
+<p>This text is normal</p>
+<p> <em>This text is emphasis.</em> </p>
+
+<!--HTML small formatting-->
+<h2>HTML <small>small</small> formatting.  </h2>
+
+<!--HTML mark Formatting-->
+<h2>HTML <mark>Marked</mark>Formatting. </h2>
+
+<!--HTML del Element-->
+<p>The del element represent delete (removed) text.</p>
+<p> My favorite color is <del>blue</del> red. </p>
+
+<!--HTML ins Element-->
+<p>The ins element represent inserted (added) text.</p>
+<p>My favorite <ins>colour</ins> is red. </p>
+
+<!-- HTMl sub Element-->
+<p>This is <sub>subscripted</sub> text. </p>
+
+<!--HTML sup Element-->
+<p>This is <sup>superscripted</sup> text. </p>
+
+<!--HTML Quotation and Citation Elements-->
+
+<p>WWF's goal is to: <q cite="https://www.worldwildlife.com">Build a future where people live in harmony with nature.</q> </p>
+
+<p>Here is a quote from WWF's website:</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+  For 60 years, WWF has been protecting the future of nature.
+  The world's leading conservation organization,
+  WWF world in 100 countries and is supported by 1.2 million members in the united states and close to 5 million globally.
+</blockquote>
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<address>
+  written by John Doe.<br>
+  visit us at:<br>
+  Example.com <br>
+  Box 564, Disneyland <br>
+  USA
+</address>
+
+<p> <cite>The Scream</cite> by Edward Munch. Paited in 1983. </p>
+
+<bdo dir="rtl">This text will be written from right to left.</bdo>
+
+<!--HTML Style-CSS
+  Inline CSS-->
+  <h1 style="color:blue;">This is Blue Heading.</h1>
+
+<!--Internal CSS
+define in head section-->
+<h4 id="#InternalCSS">Internal CSS</h4>
+
 </body>
 </html>
