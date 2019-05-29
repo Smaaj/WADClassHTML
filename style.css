@@ -318,8 +318,7 @@ footer #right-footer {
 }
 
 footer #social-media-footer a .fa-facebook,
-footer #social-media-footer a .fa-youtube,
-footer #social-media-footer a .fa-github {
+footer #social-media-footer a .fa-youtube {
   color: white;
   transition: 0.4s;
 }
@@ -343,10 +342,6 @@ footer #social-media-footer ul li:hover a .fa-youtube {
 
 footer #social-media-footer ul li:hover a .fa-facebook {
   color: #3b5998;
-}
-
-footer #social-media-footer ul li:hover a .fa-github {
-  color: #bbb;
 }
 
 /* Blog List page */
